@@ -17,7 +17,7 @@ site.webmanifest        Ícone/tema ao salvar na tela inicial do celular
 
 ## Antes de publicar (checklist)
 
-1. **Domínio**: troque `https://www.lavajatosportcar.com.br/` pelo domínio real em
+1. **Domínio**: o site usa `https://brenotocchio.github.io/lava-jato-sport-car/`. Se comprar um domínio próprio, troque pelo domínio real em
    `index.html` (canonical, og:url, og:image, Schema), `robots.txt` e `sitemap.xml`.
 2. **Fotos** – salve em `assets/img/` com estes nomes (JPG, até ~200 KB cada; use https://squoosh.app para comprimir):
    - `hero.jpg` (1200×900) – carro brilhando. Substitui a ilustração do topo automaticamente.

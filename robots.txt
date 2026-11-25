@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.lavajatosportcar.com.br/sitemap.xml
+Sitemap: https://brenotocchio.github.io/lava-jato-sport-car/sitemap.xml
