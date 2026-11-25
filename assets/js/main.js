@@ -4,7 +4,7 @@
   document.documentElement.classList.add('js');
 
   /* ---------- Configuração ---------- */
-  const WA_MAIN = '5518997274334';
+  const WA_MAIN = '5518997475934';
   const ADDRESS = 'R. América do Sul, 761, Vila Carvalho, Araçatuba - SP, 16025-300';
   // Se tiver o link direto do Perfil da Empresa no Google, coloque aqui:
   const REVIEWS_URL = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Lava Jato Sport Car, ' + ADDRESS);
