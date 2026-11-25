@@ -1,0 +1,30 @@
+# Lava Jato Sport Car – desempenho e segurança (servidores Apache, como Hostinger, HostGator, Locaweb)
+
+# Força HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+# Compressão
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/json application/manifest+json text/xml
+</IfModule>
+
+# Cache do navegador
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/svg+xml "access plus 6 months"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+AddType application/manifest+json .webmanifest

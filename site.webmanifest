@@ -1,0 +1,13 @@
+{
+  "name": "Lava Jato Sport Car",
+  "short_name": "Sport Car",
+  "description": "Lava jato e estética automotiva em Araçatuba (SP).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0D",
+  "theme_color": "#0B0B0D",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
